@@ -19,8 +19,10 @@
 - [ ] README.md
 - [ ] dock
 - [ ] Core
+- [ ] repository uml
 
 ## Done
 
 - [x] local repository
 - [x] modules-uml
+- [x] ERD

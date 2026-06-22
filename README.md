@@ -44,15 +44,25 @@ SchoolAttendanceManager/
 |   |   ├── appsettings.json
 |   |   ├── log.txt
 |   |   └── Programm.cs
-|   ├── SAM.Infrastructure
+|   ├── SAM.Core
+|   |   ├── Repository/
+|   |   ├── Schema/
+|   |   ├── Services/
+|   |   └── Modules/
 |   └── SAM.WinForms
 ├─── database/
 |   ├── schema.sql
 |   └── seed.sql
 ├── README.md
 ├── TASKS.md
-└── .gitignore
+└── .git
 ```
+
+## Dependencies
+
+This project uses the following NuGet packages:
+
+- 
 
 ##  License
 
