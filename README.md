@@ -33,7 +33,11 @@ dotnet run
 SchoolAttendanceManager/
 ├─── docs/
 |   ├── uml/
-|   |   ├── modules-uml
+|   |   ├── modules-uml.jpg
+|   |   ├── repository-uml.jpg
+|   |   └── schema-uml.jpg
+|   ├── erd/
+|   |   └── database_erd.jpg
 |   ├── api/
 |   └── DECISIONS.md
 ├─── src/

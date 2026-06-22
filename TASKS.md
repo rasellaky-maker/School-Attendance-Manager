@@ -13,6 +13,9 @@
 - [ ] WinForms client
 - [ ] docs
 - [ ] .gitignore
+- [ ] Edit README.me
+- [ ] Edit repository-uml
+- [ ] services-uml
 
 ## In Progress
 
