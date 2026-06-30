@@ -35,10 +35,14 @@ SchoolAttendanceManager/
 |   ├── uml/
 |   |   ├── modules-uml.jpg
 |   |   ├── repository-uml.jpg
+|   |   ├── servises-uml.jpg
 |   |   └── schema-uml.jpg
 |   ├── erd/
 |   |   └── database_erd.jpg
 |   ├── api/
+|   |   └── endpoints/
+|   |   |   ├── student.md
+|   |   |   └── user.md
 |   └── DECISIONS.md
 ├─── src/
 |   ├── SAM.API

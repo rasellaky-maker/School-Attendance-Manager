@@ -23,6 +23,7 @@
 - [ ] dock
 - [ ] Core
 - [ ] repository uml
+- [ ] servise uml
 
 ## Done
 
