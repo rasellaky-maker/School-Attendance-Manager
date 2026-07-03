@@ -6,8 +6,8 @@ LoginRequest - an object containing login data
 Required: Yes
 example:
 {
-  username: "amüller",
-  password: "qwerty"
+  "username": "amüller",
+  "password": "qwerty"
 }
 ```
 

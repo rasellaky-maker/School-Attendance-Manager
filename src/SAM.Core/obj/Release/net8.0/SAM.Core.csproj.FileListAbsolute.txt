@@ -1,0 +1,12 @@
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\bin\Release\net8.0\SAM.Core.deps.json
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\bin\Release\net8.0\SAM.Core.dll
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\bin\Release\net8.0\SAM.Core.pdb
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\SAM.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\SAM.Core.AssemblyInfoInputs.cache
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\SAM.Core.AssemblyInfo.cs
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\SAM.Core.csproj.CoreCompileInputs.cache
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\SAM.Core.sourcelink.json
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\SAM.Core.dll
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\refint\SAM.Core.dll
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\SAM.Core.pdb
+D:\vspojekts\SchoolAttendanceManager\src\SAM.Core\obj\Release\net8.0\ref\SAM.Core.dll

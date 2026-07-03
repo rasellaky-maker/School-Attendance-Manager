@@ -22,11 +22,13 @@
 - [ ] README.md
 - [ ] dock
 - [ ] Core
-- [ ] repository uml
 - [ ] servise uml
+- [ ] api/endpoints/student.md
 
 ## Done
 
 - [x] local repository
 - [x] modules-uml
 - [x] ERD
+- [x] repository uml
+- [x] api/endpoints/user.md

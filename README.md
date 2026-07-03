@@ -45,18 +45,34 @@ SchoolAttendanceManager/
 |   |   |   └── user.md
 |   └── DECISIONS.md
 ├─── src/
-|   ├── SAM.API
+|   ├── SAM.API/
 |   |   ├── Controllers
 |   |   |   ├── 
 |   |   |   └── User
 |   |   ├── appsettings.json
 |   |   ├── log.txt
 |   |   └── Programm.cs
-|   ├── SAM.Core
-|   |   ├── Repository/
-|   |   ├── Schema/
-|   |   ├── Services/
-|   |   └── Modules/
+|   ├── SAM.Core/
+|   |   ├── bin/
+|   |   |   ├── Debug/
+|   |   |   |   ├── net8.0/
+|   |   |   |   |   ├── SAM.Core.deps.json
+|   |   |   |   |   ├── SAM.Core.dll
+|   |   |   |   |   └── SAM.Core.pdb
+|   |   |   ├── Release/
+|   |   |   |   ├── net8.0/
+|   |   |   |   |   ├── SAM.Core.deps.json
+|   |   |   |   |   ├── SAM.Core.dll
+|   |   |   |   |   └── SAM.Core.pdb
+|   |   ├── Enums/
+|   |   |   ├── AbsenceReason.cs
+|   |   |   └── Status.cs
+|   |   ├── Modules/
+|   |   |   ├── AbsenceNote.cs
+|   |   |   └── Student.cs
+|   |   ├── obj/
+|   |   ├── SAM.Core.csproj
+|   |   └── SAM.Core.sln
 |   └── SAM.WinForms
 ├─── database/
 |   ├── schema.sql

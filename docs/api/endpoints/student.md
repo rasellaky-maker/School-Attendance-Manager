@@ -23,6 +23,16 @@
 ]
 ```
 
+**Response 401:**
+```json
+{
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "Authentication required.",
+  "timestamp": "2026-06-30T13:47:00"
+}
+```
+
 **Response 500:**
 ```json
 {
@@ -54,6 +64,16 @@ example: /api/student/Müller
         "absenceStatus": "Present",
         "fullName": "Anna Müller"
     }
+```
+
+**Response 401:**
+```json
+{
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "Authentication required.",
+  "timestamp": "2026-06-30T13:47:00"
+}
 ```
 
 **Response 404:**
@@ -124,7 +144,6 @@ example: /api/student/1
 ### GET /api/student/absence
 
 **Response 200:**
-
 ```json
 [
     {
@@ -145,6 +164,16 @@ example: /api/student/1
     },
     ...
 ]
+```
+
+**Response 401:**
+```json
+{
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "Authentication required.",
+  "timestamp": "2026-06-30T13:47:00"
+}
 ```
 
 **Response 500:**
