@@ -2,28 +2,26 @@
 
 ## Todo
 
-- [ ] Database
 - [ ] Database hostplase
 - [ ] Core data
 - [ ] src
 - [ ] API
-- [ ] GitHub repository
 - [ ] Host plase
 - [ ] Infrastructure
 - [ ] WinForms client
 - [ ] docs
 - [ ] .gitignore
 - [ ] Edit README.me
-- [ ] Edit repository-uml
-- [ ] services-uml
 
 ## In Progress
 
 - [ ] README.md
 - [ ] dock
 - [ ] Core
-- [ ] servise uml
 - [ ] api/endpoints/student.md
+- [ ] database
+- [ ] seed.sql
+- [ ] schemas class
 
 ## Done
 
@@ -32,3 +30,10 @@
 - [x] ERD
 - [x] repository uml
 - [x] api/endpoints/user.md
+- [x] servise uml
+- [x] GitHub repository
+- [x] Edit repository-uml
+- [x] services-uml
+- [x] SAM.Moduls
+- [x] SAM.Enums
+- [x] schema.sql

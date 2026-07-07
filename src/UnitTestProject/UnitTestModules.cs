@@ -1,6 +1,7 @@
-using SAM.Core.Modules;
 using SAM.Core.Enums;
+using SAM.Core.Modules;
 using System.Diagnostics.Contracts;
+using Xunit;
 
 namespace UnitTestProject
 {
@@ -61,15 +62,15 @@ namespace UnitTestProject
         [Fact]
         public void Test6()
         {
-            Student student = new Student("test", "test", 1, Status.Absent);
+            Student student = new Student("test", "test", 1, false,Status.Absent);
             var result = student.ToString();
-            Assert.Equal("test test (Absent)", result);
+            Assert.Equal("test test - Present (Absent)", result);
         }
 
         [Fact]
         public void Test7()
         {
-            Student student = new Student("test", "test", 1, Status.Absent);
+            Student student = new Student("test", "test", 1, false, Status.Absent);
             var result = student.GetFullName();
             Assert.Equal("test test", result);
         }
@@ -77,9 +78,9 @@ namespace UnitTestProject
         [Fact]
         public void Test8()
         {
-            Student student = new Student(1, "test", "test", 1, Status.Absent);
+            Student student = new Student(1, "test", "test", 1, false, Status.Absent);
             var result = student.GetDetails();
-            Assert.Equal("Students_ID: 1\r\nFirstname: test\r\nLastname: test\r\nClass_ID: 1\r\nStatus: Absent", result);
+            Assert.Equal("Students_ID: 1\r\nFirstname: test\r\nLastname: test\r\nClass_ID: 1\r\nAbsence: False\r\nStatus: Absent", result);
         }
     }
 }

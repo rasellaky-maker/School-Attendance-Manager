@@ -1,5 +1,4 @@
 ﻿using SAM.Core.Enums;
-using System.Runtime.InteropServices;
 using System.Text;
 
 namespace SAM.Core.Modules
@@ -10,25 +9,28 @@ namespace SAM.Core.Modules
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int SchoolClassId { get; set; }
+        public bool IsAbsence { get; set; }
         public Status Status { get; set; }
 
-        public Student(int id, string firstName, string lastName, int schoolClassId, Status status)
+        public Student(int id, string firstName, string lastName, int schoolClassId, bool isAbsence, Status status)
         {
             Id = id;
             FirstName = firstName;
             LastName = lastName;
             SchoolClassId = schoolClassId;
+            IsAbsence = isAbsence;
             Status = status;
         }
 
-        public Student(string firstName, string lastName, int schoolClassId, Status status):this(0, firstName, lastName, schoolClassId, status)
+        public Student(string firstName, string lastName, int schoolClassId, bool isAbsence, Status status) : this(0, firstName, lastName, schoolClassId, isAbsence, status)
         { }
         public Student()
         { }
 
         public override string ToString()
         {
-            return $"{LastName} {FirstName} ({Status.ToString()})";
+            var absenceStatus = IsAbsence ? "Absent" : "Present";
+            return $"{LastName} {FirstName} - {absenceStatus} ({Status.ToString()})";
         }
         public string GetFullName()
         {
@@ -41,6 +43,7 @@ namespace SAM.Core.Modules
             sb.AppendLine("Firstname: " + FirstName);
             sb.AppendLine("Lastname: " + LastName);
             sb.AppendLine("Class_ID: " + SchoolClassId);
+            sb.AppendLine("Absence: " + IsAbsence.ToString());
             sb.Append("Status: " + Status.ToString());
 
             return sb.ToString();
